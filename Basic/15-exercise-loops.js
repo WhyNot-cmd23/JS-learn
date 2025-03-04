@@ -19,6 +19,10 @@ for (let i = 2; i <= 50; i += 2) {
 let nombres = ["Ana", "Luis", "Pedro", "María"];
 nombres.forEach(nombre => console.log(nombre));
 
+for (let item of nombres){
+    console.log(item)
+} 
+
 // 5. Escribe un bucle que cuente el número de vocales en una cadena de texto
 let texto = "Hola, ¿cómo estás?";
 let vocales = "aeiouAEIOU";
@@ -29,6 +33,28 @@ for (let letra of texto) {
     }
 }
 console.log("Número de vocales:", contadorVocales);
+
+let contador = 0
+for (let letter of texto){
+    switch(letter){
+        case "a":
+            contador++
+            break
+        case "e":
+            contador++
+            break
+        case "i":
+            contador++
+            break
+        case "o":
+            contador++
+            break
+        case "u":
+            contador++
+            break
+    }
+}
+console.log(`Nuevo contador es: ${contador}`)
 
 // 6. Dado un array de números, usa un bucle para multiplicar todos los números y mostrar el producto
 let numeros = [2, 3, 4, 5];
