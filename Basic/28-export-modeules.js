@@ -32,12 +32,12 @@ export const EMAIL = "luighi199@gmail.com"
 
 // Exportación por defecto
 
-export default function substract(a, b){
-    return a -b
-}
+// export default function substract(a, b){
+//     return a -b
+// }
 
-export default class MyClass{
-    func(){
-        console.log("Mi clase")
-    }
-}
+// export default class MyClass{
+//     func(){
+//         console.log("Mi clase")
+//     }
+// }
